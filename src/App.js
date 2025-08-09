@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import User from './User'
+function myfunc() {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    let a=10;
+    let b=2;
+    console.log(a+b);
+
+    return(
+        <>
+            <h1>{a+b}</h1>
+            {
+                <h1><User /></h1>
+            }
+        </>
+    )
+    
 }
-
-export default App;
+export default myfunc;

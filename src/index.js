@@ -2,12 +2,30 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import MapData from './MapData';
 import reportWebVitals from './reportWebVitals';
+import Operations from './Operations';
+import User from './User';
+import Parent from './Parent';
+import StateDemo from './StatesDemo';
+import MapDemo from './MapDemo';
+import MyMap from './MyMap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <MapData/> */}
+    {/* <Operations /> */}
+    {/* <User /> */}
+
+    {/* <Parent /> */}
+    {/* <StateDemo /> */}
+
+    {/*  */}
+
+     <MyMap />
+
   </React.StrictMode>
 );
 
