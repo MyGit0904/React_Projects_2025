@@ -10,6 +10,10 @@ import Parent from './Parent';
 import StateDemo from './StatesDemo';
 import MapDemo from './MapDemo';
 import MyMap from './MyMap';
+import Child1 from './Child1';
+import Parent1 from './Parent1';
+import List from './List';
+// import Counter from './Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,9 +26,17 @@ root.render(
     {/* <Parent /> */}
     {/* <StateDemo /> */}
 
+
     {/*  */}
 
-     <MyMap />
+    <Child1 />
+
+    {/* <Parent1 /> */}
+
+     {/* <MyMap /> */}
+
+     {/* <List /> */}
+     {/* <Counter /> */}
 
   </React.StrictMode>
 );
