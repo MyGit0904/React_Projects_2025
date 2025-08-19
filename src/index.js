@@ -13,7 +13,13 @@ import MyMap from './MyMap';
 import Child1 from './Child1';
 import Parent1 from './Parent1';
 import List from './List';
-// import Counter from './Counter';
+import Counter from './Counter';
+import GetInputValue from './GetInputValue';
+import GetInputVal_state from './GetInputVal_State';
+import Welcome from './Welcome';
+import HOC from './HOC';
+import UseContext2 from './UseContext2';
+import UseContext1 from './UseContext1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,7 +35,7 @@ root.render(
 
     {/*  */}
 
-    <Child1 />
+    {/* <Child1 /> */}
 
     {/* <Parent1 /> */}
 
@@ -37,6 +43,16 @@ root.render(
 
      {/* <List /> */}
      {/* <Counter /> */}
+
+     {/* <GetInputValue /> */}
+
+     {/* <Welcome /> */}
+
+     {/* <GetInputVal_state /> */}
+
+     {/* <HOC /> */}
+
+     <UseContext1 />
 
   </React.StrictMode>
 );
